@@ -7,7 +7,7 @@ function calculateSquareRootByGuessAndAverage(radicand) {
     let estimate = INITIAL_ESTIMATE;
     do {
         estimate = refineEstimate(estimate, radicand);
-    } while (!isEstimateCloseEnough(estimate, radicand));
+    } while (isEstimateCloseEnough(estimate, radicand) === false);
     return estimate;
 }
 

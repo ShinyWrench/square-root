@@ -1,0 +1,22 @@
+{
+    "name": "squareroot",
+    "version": "1.0.0",
+    "description": "This little repo is some informal Chapter 3 (Functions) practice for me as I read Robert C. Martin's \"Clean Code\".",
+    "main": "squareRoot.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ShinyWrench/square-root.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ShinyWrench/square-root/issues"
+    },
+    "homepage": "https://github.com/ShinyWrench/square-root#readme",
+    "dependencies": {
+        "jest": "^26.6.3"
+    }
+}
